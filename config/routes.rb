@@ -1,4 +1,4 @@
-Rails.application.routes.draw development
+Rails.application.routes.draw do
   root to: "homes#top"
   resources :books
   # Define your application routes per the DSL in https://guides.rubyonrails.org/routing.html
